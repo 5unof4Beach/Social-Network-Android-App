@@ -59,12 +59,9 @@ public class Fr_Notification extends Fragment {
     }
     private ArrayList<Notification> getData() {
         ArrayList<Notification> arrayList = new ArrayList<>();
-        arrayList.add(new Notification("Tommy Coolio","https://content-static.upwork.com/uploads/2014/10/02123010/profilephoto_goodcrop.jpg"));
-        arrayList.add(new Notification("Rayan Ford","https://images.askmen.com/1080x540/2016/01/25-021526-facebook_profile_picture_affects_chances_of_getting_hired.jpg"));
-        arrayList.add(new Notification("Doru fadi","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoMnq8bzCU6CUb2PkFvfBnME6H6qYtnZe6n8_t1Cmh3392Kk8e"));
-        arrayList.add(new Notification("Brigette Hyacinth ","https://i.ytimg.com/vi/7Xu_s1YJhyg/maxresdefault.jpg"));
-        arrayList.add(new Notification("Porana Nasd","https://mobirise.com/bootstrap-template/profile-template/assets/images/timothy-paul-smith-256424-1200x800.jpg"));
-        arrayList.add(new Notification("Maria Staver","https://www.rd.com/wp-content/uploads/2017/09/01-shutterstock_476340928-Irina-Bg.jpg"));
+        arrayList.add(new Notification("Bùi Minh Đức","https://scontent.fhan14-3.fna.fbcdn.net/v/t1.15752-9/328751482_1319476191932232_3658527045561472947_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=ae9488&_nc_ohc=FoIA3PgmEeMAX9dB65v&_nc_ht=scontent.fhan14-3.fna&oh=03_AdQyKrKHeAR1PlYURjAQw5p_aRciSMKiuAExE45gPuchfA&oe=64244356"));
+        arrayList.add(new Notification("Phùng Đức Cường","https://scontent.fhan14-2.fna.fbcdn.net/v/t1.15752-9/329244816_1260906708114829_5227376400988298423_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=ae9488&_nc_ohc=tiEvsuSsaTkAX8ZFotE&_nc_ht=scontent.fhan14-2.fna&oh=03_AdRFbkwqV7coPThs-p_KMLst2VS1Y3D2WIbpjlRZq0WCcA&oe=6424465C"));
+        arrayList.add(new Notification("Đinh Văn Giới","https://scontent.fhan14-3.fna.fbcdn.net/v/t1.15752-9/327523475_2542077852597433_3495141376131933026_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=DJCONJcwcmEAX-_BiON&_nc_ht=scontent.fhan14-3.fna&oh=03_AdSH-FwqpvDZUSnErg5Pk2bE4fEdIgZH_nzDv3dB05vbeQ&oe=642422AB"));
         return arrayList;
     }
 }

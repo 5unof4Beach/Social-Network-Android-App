@@ -5,7 +5,7 @@ public class Stories {
     String imageUrl;
     String name;
 
-    public Stories(String imageUrl, String name) {
+    public Stories(String name, String imageUrl) {
         this.imageUrl = imageUrl;
         this.name = name;
     }

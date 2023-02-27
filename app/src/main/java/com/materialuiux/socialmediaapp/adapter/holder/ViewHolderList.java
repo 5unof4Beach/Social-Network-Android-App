@@ -46,13 +46,9 @@ public class ViewHolderList extends RecyclerView.ViewHolder {
 
     private ArrayList<Stories> getData() {
         ArrayList<Stories> arrayList = new ArrayList<>();
-        arrayList.add(new Stories("https://yt3.ggpht.com/bIHY6TDWPd-5ni8rGLBIry1dNNUW1YrOsmhvEyFf2CrOFrsYRIhdOLm8ODLlyhBpyC7wfYbgQbw=s900-c-k-c0xffffffff-no-rj-mo", "ali"));
-        arrayList.add(new Stories("https://cdn.vox-cdn.com/thumbor/hJq_hq_GDsldfqsPJJIw8xJX-rA=/0x354:1064x1166/1200x800/filters:focal(376x510:546x680)/cdn.vox-cdn.com/uploads/chorus_image/image/56956201/2x3__25_.0.png", "salah"));
-        arrayList.add(new Stories("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQJqNY9tNsNMOq2rZ4VTVh_rw_7Bi7QgpLyA1ZDCKzoaROy-Et", "Noor"));
-        arrayList.add(new Stories("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcai8fsvjYdJiUs4bTNVoCJxwrI1ULzZc8CuFkZQu9JaIpPlZE", "Naruto"));
-        arrayList.add(new Stories("https://cdn.animenewsnetwork.com/thumbnails/max400x400/cms/news.3/150796/vegmovie.jpg", "Delayed"));
-        arrayList.add(new Stories("https://avatarfiles.alphacoders.com/752/75205.png", "Kaneki"));
-        arrayList.add(new Stories("https://displate.com/displates/2015-06-24/ccd7b20be2db6f02da7886f7bc9fb423.jpg?w=280", "Manga"));
+        arrayList.add(new Stories("yuna_tamago", "https://www.ffok123.com/zb_users/upload/2021/11/20211118150004163721880451063.jpeg"));
+        arrayList.add(new Stories("eva", "https://i.pinimg.com/originals/e9/dd/65/e9dd658cc3077c0c18e45189337d08fb.jpg"));
+
         return arrayList;
     }
 }

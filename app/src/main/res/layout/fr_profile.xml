@@ -43,7 +43,7 @@
                         android:layout_height="65dp"
                         android:layout_centerHorizontal="true"
                         android:src="@drawable/profile"
-                        app:civ_border_color="@color/colorPrimary"
+                        app:civ_border_color="@color/colorAccent"
                         app:civ_border_width="1dp" />
 
                     <ImageButton
@@ -68,7 +68,7 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Mo Alsudani"
+                        android:text="Bùi Minh Đức"
                         android:textColor="@color/DarkTextColor"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -82,8 +82,8 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:text="Android Developer"
-                            android:textColor="@color/colorPrimary"
+                            android:text="Senior Web Developer At Starack"
+                            android:textColor="@color/colorAccent"
                             android:textSize="14sp" />
 
                         <ImageView
@@ -104,7 +104,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="@mo_alsudnai"
+                android:text="@duc_bui"
                 android:textColor="@color/DarkTextColor"
                 android:textSize="14sp"
                 android:textStyle="bold" />
@@ -129,7 +129,12 @@
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
                     android:layout_alignParentBottom="true"
-                    android:layout_margin="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
                     app:srcCompat="@drawable/ic_edit" />
 
             </RelativeLayout>
@@ -142,7 +147,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:text="Moldova,Chisinau"
+                    android:text="Thai Binh, Viet Nam"
                     android:textColor="@color/text_hint" />
 
                 <ImageView
@@ -174,7 +179,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="10.5k"
+                        android:text="6k"
                         android:textColor="@color/DarkTextColor"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -200,7 +205,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="182"
+                        android:text="2"
                         android:textColor="@color/DarkTextColor"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -227,7 +232,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
-                        android:text="5.5k"
+                        android:text="5"
                         android:textColor="@color/DarkTextColor"
                         android:textSize="18sp"
                         android:textStyle="bold" />

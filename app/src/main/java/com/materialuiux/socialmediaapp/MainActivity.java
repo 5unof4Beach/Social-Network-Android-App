@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         setContentView(R.layout.activity_main);
         tilte_tb = findViewById(R.id.txt_title);
         massinger = findViewById(R.id.massinger);
-        camera = findViewById(R.id.camera);
+//        camera = findViewById(R.id.camera);
         CustomBottomNavigationView bottomNavigation = findViewById(R.id.customBottomBar);
         bottomNavigation.inflateMenu(R.menu.navigation);
         bottomNavigation.setOnNavigationItemSelectedListener(this);
@@ -49,14 +49,14 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
             intent.putExtra("fr", 0);
             startActivity(intent);
         });
-        camera.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
-                intent.putExtra("fr", 1);
-                startActivity(intent);
-            }
-        });
+//        camera.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
+//                intent.putExtra("fr", 1);
+//                startActivity(intent);
+//            }
+//        });
 
         newPost.setOnClickListener(new View.OnClickListener() {
             @Override

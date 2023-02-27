@@ -102,23 +102,12 @@ public class Fr_Profile extends Fragment {
 
     private ArrayList<String> getImages() {
         ArrayList<String> arrayList = new ArrayList<>();
-        arrayList.add("https://f4.bcbits.com/img/a0942274282_16.jpg");
-        arrayList.add("https://www.anime-planet.com/images/anime/screenshots/fight-league-gear-gadget-generators-12359-1.jpg");
-        arrayList.add("https://honeysanime.com/wp-content/uploads/2016/08/1-episode-3-Kill-la-Kill-Capture-500x400.jpg");
-        arrayList.add("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ZhmFkgBEiaN58oW-WzVBnlXTJsiGZGD6ZRgYpghqPT2PId4LbQ");
-        arrayList.add("https://wallpaperplay.com/walls/full/0/e/d/72534.jpg");
-        arrayList.add("https://wallpaperplay.com/walls/full/9/9/0/72533.jpg");
-        arrayList.add("https://i.ytimg.com/vi/35aItMl6MCQ/maxresdefault.jpg");
-        arrayList.add("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHi6gwyQf4Q08vwxP8my-KxtJtL6dRVbv04YpQzcbHt5hVgBPi0w");
+        arrayList.add("https://instagram.fhan14-3.fna.fbcdn.net/v/t51.2885-15/147193704_415121726269179_2132867481800524467_n.jpg?stp=dst-jpg_e35&_nc_ht=instagram.fhan14-3.fna.fbcdn.net&_nc_cat=103&_nc_ohc=lyl3h0avqrUAX9pPLIc&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=MjUwNDY0ODM3NjcxOTgwMDAwMw%3D%3D.2-ccb7-5&oh=00_AfCSrvAa3BiAhHkOPzpZ5rzImbeWwS_TMzhAx_zfMaBQbA&oe=6401E9DB&_nc_sid=1527a3");
         return arrayList;
     }
 
     private ArrayList<Post> getData() {
         ArrayList<Post> arrayList = new ArrayList<>();
-        arrayList.add(new Post("", R.drawable.post2, "", 0));
-        arrayList.add(new Post("", R.drawable.post3, "", 0));
-        arrayList.add(new Post("", R.drawable.post4, "", 0));
-        arrayList.add(new Post("", R.drawable.profile, "", 0));
         arrayList.add(new Post("https://www.radiantmediaplayer.com/media/bbb-360p.mp4", 0, "", 1));
         return arrayList;
     }

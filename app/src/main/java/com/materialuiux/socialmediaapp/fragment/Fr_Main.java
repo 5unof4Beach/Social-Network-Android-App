@@ -61,11 +61,8 @@ public class Fr_Main extends Fragment {
     private ArrayList<Post> getData() {
         ArrayList<Post> arrayList = new ArrayList<>();
         arrayList.add(new Post("", R.drawable.post, "", 2));
-        arrayList.add(new Post("", R.drawable.post2, "", 0));
         arrayList.add(new Post("https://www.radiantmediaplayer.com/media/bbb-360p.mp4", 0, "", 1));
-        arrayList.add(new Post("", R.drawable.post3, "", 0));
-        arrayList.add(new Post("", R.drawable.post4, "", 0));
-        arrayList.add(new Post("", R.drawable.profile, "", 0));
+        arrayList.add(new Post("", R.drawable.post, "", 0));
         return arrayList;
     }
 

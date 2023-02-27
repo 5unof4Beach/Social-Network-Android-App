@@ -15,33 +15,17 @@
         android:orientation="vertical">
 
 
-
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center"
-            android:scaleType="centerCrop"
-            android:src="@drawable/logo" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="Material UiUx"
-            android:textColor="@color/DarkTextColor"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Join the Material UiUx community"
-            android:textColor="@color/light_font"
-            android:textSize="14sp" />
+            android:text="Sign Up"
+            android:textSize="18sp"
+            android:textColor="@color/DarkTextColor"
+            android:textStyle="bold"
+            />
+
 
     </LinearLayout>
 
@@ -89,30 +73,6 @@
             android:layout_marginBottom="14dp"
             android:background="@drawable/bg_border"
             android:orientation="horizontal">
-
-            <RelativeLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="0.6">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_centerVertical="true"
-                    android:background="@android:color/transparent"
-                    android:gravity="center"
-                    android:text="materialuiux.com/"
-                    android:textColor="@color/text_hint"
-                    android:textSize="14sp" />
-
-                <View
-                    android:layout_width="1dp"
-                    android:layout_height="match_parent"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true"
-                    android:background="#dfe4e3" />
-
-            </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="0dp"
@@ -202,7 +162,7 @@
             android:id="@+id/CreateAccount"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:background="@drawable/bg_button"
+            android:background="@color/colorAccent"
             android:text="Create account"
             android:textColor="@color/text_white"
             android:textSize="14sp"

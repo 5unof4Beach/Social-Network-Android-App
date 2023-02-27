@@ -16,31 +16,16 @@
         android:orientation="vertical">
 
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center"
-            android:scaleType="centerCrop"
-            android:src="@drawable/logo" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
-            android:text="Material UiUx"
+            android:text="Sign In"
             android:textColor="@color/DarkTextColor"
             android:textSize="18sp"
             android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="Join the Material UiUx community"
-            android:textColor="@color/light_font"
-            android:textSize="14sp" />
 
     </LinearLayout>
 
@@ -111,7 +96,7 @@
             android:id="@+id/SignIn"
             android:layout_width="match_parent"
             android:layout_height="56dp"
-            android:background="@drawable/bg_button"
+            android:background="@color/colorAccent"
             android:text="Sign In"
             android:textColor="@color/text_white"
             android:textSize="14sp"
